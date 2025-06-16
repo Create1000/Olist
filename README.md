@@ -1,4 +1,5 @@
 # Olist Store – Seller & Customer Behavior Analysis
+Data Operations and Growth Area
 Olist_Store_Final_Project_16.06.2025
 ## Goal
 
@@ -27,7 +28,7 @@ The goal of this project is to analyze sellers and customers on the Olist platfo
 | `reactivated_sellers`    | Sellers returning after inactivity               |
 | `retention_rate`         | Seller retention rate (%)                        |
 
-### 👥 Customers
+### Customers
 | Feature                  | Description                                      |
 |--------------------------|--------------------------------------------------|
 | `customer_id`            | Unique customer ID                               |
@@ -49,11 +50,11 @@ The goal of this project is to analyze sellers and customers on the Olist platfo
 
 ## Data Cleaning & Preparation
 
-- ✅ Removed nulls and outliers (e.g., missing product names, canceled orders)
-- ✅ Unified inconsistent category names (e.g., translated to English)
-- ✅ Converted `order_purchase_timestamp` into `year_month` format
-- ✅ Joined all necessary tables (orders, customers, sellers, products)
-- ✅ Removed irrelevant fields (e.g., constant columns)
+-  Removed nulls and outliers (e.g., missing product names, canceled orders)
+-  Unified inconsistent category names (e.g., translated to English)
+-  Converted `order_purchase_timestamp` into `year_month` format
+-  Joined all necessary tables (orders, customers, sellers, products)
+-  Removed irrelevant fields (e.g., constant columns)
 
 ---
 
@@ -106,7 +107,7 @@ The goal of this project is to analyze sellers and customers on the Olist platfo
 
 ---
 
-### Dataset: rdcc-sql-v2.olist_store
-### Looker Studio Visualization: https://lookerstudio.google.com/s/nfPslEFx4vA
-### BigQuery: https://console.cloud.google.com/bigquery?ws=!1m7!1m6!12m5!1m3!1srdcc-sql-v2!2seurope-southwest1!3s43f221f1-d8c5-4d31-a8ef-55ff030f7573!2e1
+- Dataset: rdcc-sql-v2.olist_store
+- Looker Studio Visualization: https://lookerstudio.google.com/s/nfPslEFx4vA
+- BigQuery: https://console.cloud.google.com/bigquery?ws=!1m7!1m6!12m5!1m3!1srdcc-sql-v2!2seurope-southwest1!3s43f221f1-d8c5-4d31-a8ef-55ff030f7573!2e1
 
